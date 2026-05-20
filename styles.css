@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* *ICONS* */
+/*
+ÍCONES DA IMAGEM:
+| Ícone          | Nome                |
+| -------------- | ------------------- |
+| Dashboard      | `dashboard`         |
+| Analytics      | `analytics`         |
+| Ecommerce      | `shopping_cart`     |
+| CRM            | `groups`            |
+| HRM            | `badge`             |
+| NFT            | `token`             |
+| Crypto         | `currency_bitcoin`  |
+| Jobs           | `work`              |
+| Projects       | `folder`            |
+| Courses        | `school`            |
+| Stocks         | `candlestick_chart` |
+| Medical        | `medical_services`  |
+| POS System     | `point_of_sale`     |
+| Podcast        | `podcasts`          |
+| School         | `menu_book`         |
+| Social Media   | `public`            |
+| Apps           | `apps`              |
+| Nested Menu    | `menu_open`         |
+| Authentication | `lock`              |
+| Error          | `error`             |
+| Pages          | `description`       |
+| Forms          | `edit_document`     |
+
+CARDS SUPERIORES:
+| Ícone         | Nome            |
+| ------------- | --------------- |
+| Carrinho      | `shopping_cart` |
+| Usuários      | `group`         |
+| Receita/Dólar | `attach_money`  |
+| Estatísticas  | `bar_chart`     |
+
+BARRA SUPERIOR:
+| Ícone           | Nome            |
+| --------------- | --------------- |
+| Menu hambúrguer | `menu`          |
+| Busca           | `search`        |
+| Idioma          | `language`      |
+| Tema escuro     | `dark_mode`     |
+| Mensagens       | `mail`          |
+| Notificações    | `notifications` |
+| Fullscreen      | `fullscreen`    |
+| Configurações   | `settings`      |
+
+ÁREA DOS GRÁFICOS:
+| Ícone        | Nome            |
+| ------------ | --------------- |
+| Estatísticas | `query_stats`   |
+| Sort         | `expand_more`   |
+| Ver mais     | `arrow_forward` |
+*/
+
+:root {
+
+   /* ===== BACKGROUNDS ===== */
+   --bg-main: #f5f6fa;
+   --bg-sidebar: #1f2544;
+   --bg-card: #ffffff;
+   --bg-hover: #2a3158;
+
+   /* ===== TEXTOS ===== */
+   --text-primary: #1d1d1d;
+   --text-secondary: #6c7293;
+   --text-light: #ffffff;
+
+   /* ===== CORES PRINCIPAIS ===== */
+   --primary: #6c63ff;
+   --primary-dark: #5a52e0;
+
+   --pink: #f857c1;
+   --purple: #a855f7;
+   --orange: #ff8a65;
+   --yellow: #ffc857;
+   --green: #33d69f;
+   --red: #ff5b6e;
+   --blue: #4f7cff;
+   --cyan: #3bc9db;
+
+   /* ===== GRÁFICOS ===== */
+   --chart-blue: #5b6cff;
+   --chart-pink: #e056fd;
+   --chart-orange: #ff9f43;
+   --chart-purple: #9b59b6;
+   --chart-green: #2ecc71;
+
+   /* ===== BORDAS ===== */
+   --border-color: #e9edf5;
+
+   /* ===== SHADOW ===== */
+   --shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+   /* ===== BADGES ===== */
+   --success: #33d69f;
+   --warning: #ffc857;
+   --danger: #ff5b6e;
+   --info: #5b6cff;
+
+   }
