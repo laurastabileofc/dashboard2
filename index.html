@@ -6,11 +6,740 @@
    <title>Dashboard 02</title>
    <link rel="stylesheet" href="styles.css" />
    <link
-   href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
    rel="stylesheet"
    />
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-   
+   <div class="container">
+
+      <aside class="sidebar">
+         <div class="bar-title">
+            <span class="text">xintra</span>
+         </div>
+
+         <div class="menu">
+            <div class="menu-section">
+               <h4>MAIN</h4>
+               <div class="section-title-selected">
+                  <div class="item1">
+                     <span class="material-icons-outlined">home</span>
+                     <span class="text">Dashboards</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_up</span>
+                  </div>
+               </div>
+               <ul class="section-subtitle">
+                  <li>
+                     <span>Sales</span>
+                  </li>
+                  <li>
+                     <span>Analytics</span>
+                  </li>
+                  <li>
+                     <span>Ecommerce</span>
+                  </li>
+                  <li>
+                     <span>CRM</span>
+                  </li>
+                  <li>
+                     <span>HRM</span>
+                  </li>
+                  <li>
+                     <span>NFT</span>
+                  </li>
+                  <li>
+                     <span>Crypto</span>
+                  </li>
+                  <li>
+                     <span>Jobs</span>
+                  </li>
+                  <li>
+                     <span>Projects</span>
+                  </li>
+                  <li>
+                     <span>Courses</span>
+                  </li>
+                  <li>
+                     <span>Stocks</span>
+                  </li>
+                  <li>
+                     <span>Medical</span>
+                  </li>
+                  <li>
+                     <span>POS System</span>
+                  </li>
+                  <li>
+                     <span>Podcast</span>
+                  </li>
+                  <li>
+                     <span>School</span>
+                  </li>
+                  <li>
+                     <span>Social Media</span>
+                  </li>
+               </ul>
+            </div>   
+            <div class="menu-section">
+               <h4>WEB APPS</h4>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">apps</span>
+                     <span class="text">Apps</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+               </div>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">content_copy</span>
+                     <span class="text">Nested Menu</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+               </div>
+            </div>   
+            <div class="menu-section">
+               <h4>PAGES</h4>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">lock</span>
+                     <span class="text">Authetication</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+               </div>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">error</span>
+                     <span class="text">Error</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+               </div>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">description</span>
+                     <span class="text">Pages</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+               </div>
+            </div>   
+            <div class="menu-section">
+               <h4>GENERAL</h4>
+               <div class="section-title">
+                  <div class="item1">
+                     <span class="material-icons-outlined">content_paste</span>
+                     <span class="text">Forms</span>
+                  </div>
+                  <div class="item2">
+                     <span class="material-icons-outlined">keyboard_arrow_down</span>
+                  </div>
+                  </div>
+               </div>
+            </div>   
+      </aside>
+
+      <main>
+         <header>
+            <div class="content-header">
+               <div class="content-header1">
+                  <span class="material-icons-outlined">menu</span>
+                  <span class="search">
+                     <input type="search" placeholder="Search anything here...">
+                  </span>
+               </div>
+               <div class="content-header2">
+                  <div class="container-header">
+                     <span class="material-icons-outlined">translate</span>
+                  </div>
+                  <div class="container-header">
+                     <span class="material-icons-outlined">dark_mode</span>
+                  </div>
+                  <div class="container-header">
+                     <span class="material-icons-outlined">shopping_cart</span>
+                  </div>
+                  <div class="container-header">
+                     <span class="material-icons-outlined">notifications</span>
+                  </div>
+                  <div class="container-header">
+                     <span class="material-icons-outlined">fullscreen</span>
+                  </div>
+                  <div class="container-header">
+                     <img src="imagem1.jpg" alt="foto-perfil" class="foto-perfil">
+                  </div>
+                     <div class="container-header">
+                     <span class="material-icons-outlined">settings</span>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+         <div class="main-content">
+
+            <div class="main-title">
+
+               <div class="title-box1">
+                  <div class="subtitle-box1">
+                     <span class="text-dashboard">Dashboards</span>
+                     <span class="material-icons-outlined">arrow_forward</span>
+                     <span class="text-sales">Sales</span>
+                  </div>
+
+                  <div class="principaltitle-box1">
+                     <span class="principal-text">Sales Dashboard</span>
+                  </div>
+               </div>
+
+
+               <div class="title-box2">
+                  <div class="calendar-box">
+                     <span class="material-icons-outlined">calendar_today</span>
+                     <input type="date">
+                  </div>
+                  <div class="box filter-box">
+                     <span class="material-icons-outlined">filter_list</span>
+                     <span class="text-filter">Filter</span>
+                  </div>
+                  <div class="box share-box">
+                     <span class="material-icons-outlined">share</span>
+                     <span class="text-filter">Share</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card1">
+
+               <div class="left-box">
+                  <div class="cards-box">
+                     <div class="card-box">
+                        <div class="box-left">
+                           <span class="box-text">Total Products</span>
+                           <span class="box-number">854</span>
+                           <div class="box-subtitle">
+                              <span class="box-text">Increased By</span>
+                              <span class="box-text-green">2.56%</span>
+                              <span class="material-icons-outlined box-text-green">arrow_upward</span>
+                           </div>
+                        </div>
+                        <div class="box-icon box-blue">
+                           <span class="material-icons-outlined">shopping_cart</span>
+                        </div>
+                     </div>
+                     <div class="card-box">
+                        <div class="box-left">
+                           <span class="box-text">Total Users</span>
+                           <span class="box-number">31,876</span>
+                           <div class="box-subtitle">
+                              <span class="box-text">Increased By</span>
+                              <span class="box-text-green">0.34%</span>
+                              <span class="material-icons-outlined box-text-green">arrow_upward</span>
+                           </div>
+                        </div>
+                        <div class="box-icon box-purple">
+                           <span class="material-icons-outlined">group</span>
+                        </div>
+                     </div>
+                     <div class="card-box">
+                        <div class="box-left">
+                           <span class="box-text">Total Revenue</span>
+                           <span class="box-number">$34,241</span>
+                           <div class="box-subtitle">
+                              <span class="box-text">Increased By</span>
+                              <span class="box-text-green">7.66%</span>
+                              <span class="material-icons-outlined box-text-green">arrow_upward</span>
+                           </div>
+                        </div>
+                        <div class="box-icon box-pink">
+                           <span class="material-icons-outlined">attach_money</span>
+                        </div>
+                     </div>
+                     <div class="card-box">
+                        <div class="box-left">
+                           <span class="box-text">Total Sales</span>
+                           <span class="box-number">1,76,586</span>
+                           <div class="box-subtitle">
+                              <span class="box-text">Decreased By</span>
+                              <span class="box-text-red">0.74%</span>
+                              <span class="material-icons-outlined box-text-red">arrow_upward</span>
+                           </div>
+                        </div>
+                        <div class="box-icon box-orange">
+                           <span class="material-icons-outlined">bar_chart</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="charts-box">
+                     <div class="chart-container">
+                        <span class="title">Sales Overview</span>
+                        <canvas id="salesChart"></canvas>
+                     </div>
+
+                     <div class="donut-box">
+                        <div class="info1">
+                           <span class="title">Order Statistcs</span>
+                           <div class="info1-icon">
+                              <span class="material-icons-outlined">more_vert</span>
+                           </div>
+                        </div>
+                        <div class="info2">
+                           <div class="info2-icon">
+                              <span class="material-icons-outlined">arrow_outward</span>
+                           </div>
+                           <div class="info2-orders">
+                              <span class="title">TOTAL ORDERS</span>
+                              <div class="info-num">
+                                 <span class="num">3,736</span>
+                                 <span class="material-icons-outlined TG">arrow_outward</span>
+                                 <span class="perc TG">0.57%</span>
+                              </div>
+                           </div>
+                              <div class="info2-sub">
+                                 <span class="text TG">Earnings ?</span>
+                              </div>
+                        </div>
+                        <canvas id="orderChart"></canvas>
+                        <div class="complete-box">
+                           <span class="text TA">Complete Statistcs</span>
+                           <span class="material-icons-outlined TA">arrow_forward</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="right-box">
+
+                  <div class="up-box">
+                     <div class="upgrade-box">
+                        <div class="info-box">
+                           <div class="box-title">
+                              <span class="title">Upgrade to get more</span>
+                           </div>
+                           <div class="box-subtitle">
+                              <span class="subtitle">Maximize sales insights. Optimize performance.</span>
+                              <span class="subtitle">Achieve success with pro.</span>
+                           </div>
+                           <div class="underline-box">
+                              <span class="text-underline">Upgrade To Pro</span>
+                              <span class="material-icons-outlined">arrow_forward</span>
+                           </div>
+                        </div>
+
+                        <div class="img-box">
+                           <img src="logo-img.png" alt="logo">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="selling-box">
+                     <div class="title-box-container">
+                        <span class="title">Top Selling Categories</span>
+                        <div class="sort-box">
+                           <span class="text">Sort By</span>
+                           <span class="material-icons-outlined text">keyboard_arrow_down</span>
+                        </div>
+                     </div>
+                     <div class="lines-container">
+                        <div class="line blue"></div>
+                        <div class="line pink"></div>
+                        <div class="line red"></div>
+                        <div class="line orange"></div>
+                        <div class="line purple"></div>
+                     </div>
+                     <div class="lines-subtitle">
+                        <div class="title-lines-container">
+                           <span class="title">Overall Sales</span>
+                        </div>
+                        <div class="num-container">
+                           <span class="percent TG">2.74%</span>
+                           <span class="material-icons-outlined TG">arrow_upward</span>
+                           <span class="number">1,25,875</span>
+                        </div>
+                     </div>
+                     <div class="lines-content"> <!--Clothing-->
+                        <div class="categorie">
+                           <span class="material-icons-outlined blue text">circle</span>
+                           <span class="text">Clothing</span>
+                        </div>
+                        <span class="number">31,245</span>
+                        <span class="lines-percent">25% Gross</span>
+                        <div class="percent-container green">
+                           <span class="percent">0.45%</span>
+                           <span class="material-icons-outlined percent">arrow_outward</span>
+                        </div>
+                     </div>
+                     <div class="lines-content"> <!--Eletronics-->
+                        <div class="categorie">
+                           <span class="material-icons-outlined purple text">circle</span>
+                           <span class="text">Eletroics</span>
+                        </div>
+                        <span class="number">29,553</span>
+                        <span class="lines-percent">16% Gross</span>
+                        <div class="percent-container yellow">
+                           <span class="percent">0.27%</span>
+                           <span class="material-icons-outlined percent">trending_up</span>
+                        </div>
+                     </div>
+                     <div class="lines-content"> <!--Grocery-->
+                        <div class="categorie">
+                           <span class="material-icons-outlined pink text">circle</span>
+                           <span class="text">Grocery</span>
+                        </div>
+                        <span class="number">24,577</span>
+                        <span class="lines-percent">22% Gross</span>
+                        <div class="percent-container purple">
+                           <span class="percent">0.63%</span>
+                           <span class="material-icons-outlined percent">trending_up</span>
+                        </div>
+                     </div>
+                     <div class="lines-content"> <!--Automobiles-->
+                        <div class="categorie">
+                           <span class="material-icons-outlined orange text">circle</span>
+                           <span class="text">Automobiles</span>
+                        </div>
+                        <span class="number">19,278</span>
+                        <span class="lines-percent">18% Gross</span>
+                        <div class="percent-container pink">
+                           <span class="percent">1.14%</span>
+                           <span class="material-icons-outlined percent">trending_down</span>
+                        </div>
+                     </div>
+                     <div class="lines-content"> <!--Others-->
+                        <div class="categorie">
+                           <span class="material-icons-outlined yellow text">circle</span>
+                           <span class="text">Others</span>
+                        </div>
+                        <span class="number">15,934</span>
+                        <span class="lines-percent">15% Gross</span>
+                        <div class="percent-container blue">
+                           <span class="percent">3.87%</span>
+                           <span class="material-icons-outlined percent">trending_up</span>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            
+            </div>
+            <div class="card2">
+
+               <div class="transactions-box">
+                  <div class="transactions-title-container">
+                     <span class="title">Latest Transactions</span>
+                     <div class="view-container">
+                        <span class="text">View All</span>
+                        <span class="material-icons-outlined text">arrow_forward</span>
+                     </div>
+                  </div>
+                  
+                  <div class="transactions-categories">
+                     <span class="text col-product">Product</span>
+                     <span class="text col-price">Price</span>
+                     <span class="text col-status">Status</span>
+                  </div>
+                  
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">SwiftBuds</span>
+                     </div>
+                     <span class="text col-price">$39.99</span>
+                     <div class="col-status">
+                        <div class="status-container blue">
+                           <span class="status-text">Success</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">CozyCloud Pillow</span>
+                     </div>
+                     <span class="text col-price">$19.95</span>
+                     <div class="col-status">
+                        <div class="status-container purple1">
+                           <span class="status-text">Pending</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">AquaGrip Bottle</span>
+                     </div>
+                     <span class="text col-price">$9.99</span>
+                     <div class="col-status">
+                        <div class="status-container pink">
+                           <span class="status-text">Failed</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">GlowLite Lamp</span>
+                     </div>
+                     <span class="text col-price">$24.99</span>
+                     <div class="col-status">
+                        <div class="status-container orange">
+                           <span class="status-text">Success</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">Bitvitamin</span>
+                     </div>
+                     <span class="text col-price">$26.45</span>
+                     <div class="col-status">
+                        <div class="status-container purple2">
+                           <span class="status-text">Success</span>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="transactions-content">
+                     <div class="transactions-info1 col-product">
+                        <img src="user-ixon2.png" alt="user-icon">
+                        <span class="text">FitTrack</span>
+                     </div>
+                     <span class="text col-price">$49.95</span>
+                     <div class="col-status">
+                        <div class="status-container yellow">
+                           <span class="status-text">Success</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="activity-box">
+                  <div class="activity-title-container">
+                     <span class="title">Latest Activities</span> <div class="view-container">
+                        <span class="text">View All</span>
+                     </div>
+                  </div>
+                  
+                  <div class="activity-content status-blue">
+                     <div class="hour-container">
+                        <span class="hour">12 Hs</span>
+                     </div>
+                     <div class="activity-history">
+                        <span class="name">John Doe</span>
+                        <span class="description">Updated the product description for <span class="highlight blue">Widget X</span></span>
+                     </div>
+                  </div>
+
+                  <div class="activity-content status-purple1">
+                     <div class="hour-container">
+                        <span class="hour">4:32pm</span>
+                     </div>
+                     <div class="activity-history">
+                        <span class="name">Jane Smith</span>
+                        <span class="description">added a <span class="highlight black">new user</span> with username <span class="highlight purple1">janesmith89</span>.</span>
+                     </div>
+                  </div>
+
+                  <div class="activity-content status-pink">
+                     <div class="hour-container">
+                        <span class="hour">11:45am</span>
+                     </div>
+                     <div class="activity-history">
+                        <span class="name">Michael Brown</span>
+                        <span class="description">Changed the status of order <span class="highlight black">#12345</span> to <span class="highlight pink">Shipped</span></span>
+                     </div>
+                  </div>
+
+                  <div class="activity-content status-orange">
+                     <div class="hour-container">
+                        <span class="hour">9:27am</span>
+                     </div>
+                     <div class="activity-history">
+                        <span class="name">David Wilson</span>
+                        <span class="description">added <span class="highlight orange">John Smith</span> to academy group this day.</span>
+                     </div>
+                  </div>
+
+                  <div class="activity-content status-purple2">
+                     <div class="hour-container">
+                        <span class="hour">8:56pm</span>
+                     </div>
+                     <div class="activity-history">
+                        <span class="name">Robert Jackson</span>
+                        <span class="description">added a comment to the task <span class="highlight purple2">Update website layout</span>.</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="sales-box">
+                  <div class="sales-title-container">
+                     <span class="title">Sales Statistics</span>
+                     <div class="sort-container">
+                        <span class="text">Sort By</span>
+                        <span class="material-icons-outlined text">keyboard_arrow_down</span>
+                     </div>
+                  </div>
+                  <div class="box-container">
+                     <div class="box box1">
+                        <span class="title">Total Sales</span>
+                        <span class="num BL">$3.478B</span>
+                     </div>
+                     <div class="box box2">
+                        <span class="title">This Year</span>
+                        <span class="num GR">4,25,349</span>
+                     </div>
+                     <div class="box box3">
+                        <span class="title">Last Year</span>
+                        <span class="num RD">3,41,622</span>
+                     </div>
+                  </div>
+                  <div class="mini-chart">
+                     <canvas id="miniChart"></canvas>
+                  </div>
+               </div>
+
+               <div class="overall-box">
+                  <div class="overall-title-container">
+                     <span class="title">Overall Statistics</span> 
+                     <div class="view-container">
+                        <span class="text">View All</span>
+                     </div>
+                  </div>
+                  <div class="overall-content top">
+                     <div class="overall-left-info">
+                        <div class="title-box">
+                           <span class="title">Total Expenses</span>
+                        </div>
+                        <div class="num-box">
+                           <span class="num">$134,032</span>
+                           <span class="GR">0.45%</span>
+                           <span class="material-icons-outlined GR">trending_up</span>
+                        </div>
+                     </div>
+
+                     <div class="overall-right-info">
+                        <div class="overall-right-info">
+                           <canvas id="expenseChart"></canvas>
+                           <div class="chart-subtitle">
+                              <span class="text">See more</span>
+                              <span class="material-icons-outlined text">arrow_forward</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="overall-content">
+                     <div class="overall-left-info">
+                        <div class="title-box">
+                           <span class="title">General Leads</span>
+                        </div>
+                        <div class="num-box">
+                           <span class="num">74,354</span>
+                           <span class="RD">3.84%</span>
+                           <span class="material-icons-outlined RD">trending_down</span>
+                        </div>
+                     </div>
+
+                     <div class="overall-right-info">
+                        <div class="overall-right-info">
+                           <canvas id="leadsChart"></canvas>
+                           <div class="chart-subtitle">
+                              <span class="text">See more</span>
+                              <span class="material-icons-outlined text">arrow_forward</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="overall-content">
+                     <div class="overall-left-info">
+                        <div class="title-box">
+                           <span class="title">Churn Rate</span>
+                        </div>
+                        <div class="num-box">
+                           <span class="num">6.02%</span>
+                           <span class="GR">0.72%</span>
+                           <span class="material-icons-outlined GR">trending_up</span>
+                        </div>
+                     </div>
+
+                     <div class="overall-right-info">
+                        <div class="overall-right-info">
+                           <canvas id="churnChart"></canvas>
+                           <div class="chart-subtitle">
+                              <span class="text">See more</span>
+                              <span class="material-icons-outlined text">arrow_forward</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="overall-content">
+                     <div class="overall-left-info">
+                        <div class="title-box">
+                           <span class="title">New Users</span>
+                        </div>
+                        <div class="num-box">
+                           <span class="num">7,893</span>
+                           <span class="GR">11.05%</span>
+                           <span class="material-icons-outlined GR">trending_up</span>
+                        </div>
+                     </div>
+
+                     <div class="overall-right-info">
+                        <div class="overall-right-info">
+                           <canvas id="usersChart"></canvas>
+                           <div class="chart-subtitle">
+                              <span class="text">See more</span>
+                              <span class="material-icons-outlined text">arrow_forward</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="overall-content bottom">
+                     <div class="overall-left-info">
+                        <div class="title-box">
+                           <span class="title">Returning Users</span>
+                        </div>
+                        <div class="num-box">
+                           <span class="num">3,258</span>
+                           <span class="GR">1.69%</span>
+                           <span class="material-icons-outlined GR">trending_up</span>
+                        </div>
+                     </div>
+
+                     <div class="overall-right-info">
+                        <div class="overall-right-info">
+                           <canvas id="returningChart"></canvas>
+                           <div class="chart-subtitle">
+                              <span class="text">See more</span>
+                              <span class="material-icons-outlined text">arrow_forward</span>
+                           </div>   
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+      </main>
+      
+
+
+
+
+   </div>
+<script src="script.js"></script>
 </body>
 </html>
